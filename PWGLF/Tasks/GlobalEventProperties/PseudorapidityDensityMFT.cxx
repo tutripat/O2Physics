@@ -1439,7 +1439,7 @@ struct PseudorapidityDensityMFT {
         if (usePhiCut) {
           if ((phi <= PhiVetoLow) ||
               ((phi >= PhiVetoPiMin) && (phi <= PhiVetoPiMax)) ||
-              (phi >= PhiVetoHigh)){
+              (phi >= PhiVetoHigh)) {
             continue;
           }
         }
@@ -1494,7 +1494,7 @@ struct PseudorapidityDensityMFT {
           if (usePhiCut) {
             if ((phi <= PhiVetoLow) ||
                 ((phi >= PhiVetoPiMin) && (phi <= PhiVetoPiMax)) ||
-                (phi >= PhiVetoHigh)){
+                (phi >= PhiVetoHigh)) {
               continue;
             }
           }
@@ -1535,7 +1535,7 @@ struct PseudorapidityDensityMFT {
               if (usePhiCut) {
                 if ((phi <= PhiVetoLow) ||
                     ((phi >= PhiVetoPiMin) && (phi <= PhiVetoPiMax)) ||
-                    (phi >= PhiVetoHigh)){
+                    (phi >= PhiVetoHigh)) {
                   continue;
                 }
               }
